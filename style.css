@@ -1,0 +1,93 @@
+body {
+  background: url(...) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'EB Garamond', serif;
+  margin: 0;
+  padding: 40px 15px;
+  min-height: 100vh;
+  overflow-x: hidden;
+background-color: #c3a57b;}
+
+
+.carta-container {
+  background-color: rgba(255, 248, 220, 0.95);
+  border: 1px solid #bba977;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 700px;
+  color: #3e2f1c;
+}
+
+.titulo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5a4126;
+}
+
+.assinatura {
+  font-family: 'Parisienne', cursive;
+  font-size: 1.8rem;
+  text-align: right;
+  margin-top: 2em;
+}
+
+.verso-final {
+  font-style: italic;
+  text-align: center;
+  margin-top: 3em;
+  color: #6b4b2b;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  font-size: large;
+}
+
+.btn-custom {
+  background-color: #c3a57b;
+  color: #fff;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2rem;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-custom:hover {
+  background-color: #b3926d;
+  color: #fff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.btn-reveal {
+  background-color: #8c6e54;
+  color: #fff;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-reveal:hover {
+  background-color: #7a5f48;
+  transform: translateY(-1px);
+}
+
+.mensagem-secreta {
+  font-size: 1.2rem;
+  color: #4a3424;
+  font-style: italic;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
